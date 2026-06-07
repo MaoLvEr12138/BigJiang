@@ -1,5 +1,7 @@
 # BigJiang (大酱) - Low-Cost DIY Digital FPV System
 
+**English** | [中文](README_CN.md)
+
 ## Overview
 
 BigJiang is a low-cost DIY digital FPV (First Person View) system based on **Luckfox Pico Plus (RV1103)** + **RTL8812AU**. Both the ground side and air side use identical hardware, paired with [wfb-ng](https://github.com/svpcom/wfb-ng) to achieve low-latency digital video transmission and bidirectional MAVLink telemetry.

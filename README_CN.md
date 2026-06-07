@@ -1,5 +1,7 @@
 # (BigJiang)大酱 - 低成本无人机数字图传系统
 
+[English](README.md) | **中文**
+
 ## 项目简介
 
 大酱是一套基于 **Luckfox Pico Plus (RV1103)** + **RTL8812AU** 的自制无人机数字图传系统。地面端和天空端均使用相同的硬件方案，搭配 [wfb-ng](https://github.com/svpcom/wfb-ng) 实现低延迟数字图传与 MAVLink 双向遥测。
