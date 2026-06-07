@@ -51,6 +51,14 @@ Ground Side
 └─────────────────────────────────────────────────────────┘
 ```
 
+## Latency Performance
+
+End-to-end latency was measured by **simultaneously recording the original stopwatch and the stopwatch displayed in the FPV feed**: within the same frame, compare the phone's actual stopwatch reading against the stopwatch reading shown in the video stream — the difference is the total end-to-end latency.
+
+> The complete test video is available in the repository root: **[Delayed_test.mp4](Delayed_test.mp4)**.
+
+Test results show that at 320×240@24fps, the average end-to-end latency is around **100~150ms**, with smooth video and no noticeable stuttering.
+
 ## Hardware Bill of Materials
 
 | Component | Spec / Model | Notes | Est. Price |
