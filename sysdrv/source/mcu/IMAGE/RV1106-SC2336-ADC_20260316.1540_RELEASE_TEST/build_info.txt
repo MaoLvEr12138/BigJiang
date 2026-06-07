@@ -1,0 +1,10 @@
+BUILD-ID: DESKTOP-BGA0H1K:guo
+Not found /home/guo/rv1103/luckfox-pico/sysdrv/source/mcu/.repo/manifest.xml [ignore] !!!
+Current Building Information:
+Target Misc config:
+[32;1m[build.sh:info] Build ==> rv1106-SC2336-ADC[0m
+RK_BUILD_VERSION_TYPE=RELEASE
+RK_JOBS=9
+RK_PROJECT_OUTPUT=/home/guo/rv1103/luckfox-pico/sysdrv/source/mcu/output/out
+RK_PROJECT_OUTPUT_IMAGE=/home/guo/rv1103/luckfox-pico/sysdrv/source/mcu/output/image
+RK_PROJECT_TOP_DIR=/home/guo/rv1103/luckfox-pico/sysdrv/source/mcu/project

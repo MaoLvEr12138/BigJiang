@@ -1,0 +1,54 @@
+# === Build outputs ===
+output/
+out/
+image/
+*.o
+*.ko
+*.mod
+*.mod.c
+*.symvers
+*.order
+*.built-in
+Module.symvers
+modules.order
+
+# === IDE & editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# === SDK prebuilt archives (large binary blobs, obtained from official SDK) ===
+media/alsa-lib/*.tar.bz2
+media/alsa-lib/alsa-lib-*/
+media/libdrm/*.tar
+media/libdrm/libdrm-*/
+media/libv4l/*.tar.bz2
+media/libv4l/*.tar.gz
+media/libv4l/v4l-utils-*/
+media/libv4l/argp-standalone-*/
+media/mpp/release_mpp_*/
+media/isp/release_camera_engine_rkaiq_*/
+media/rga/release_rga_*/
+
+# === Media build artifacts ===
+media/*/build
+media/*/out
+media/**/build
+media/**/out
+
+# === sysdrv build artifacts ===
+sysdrv/drv_ko/*.ko
+sysdrv/source/kernel/
+sysdrv/source/uboot/
+sysdrv/tools/
+
+# === project build artifacts ===
+project/make_meta/out/
+project/make_meta/build/
+
+# === temp files ===
+*.tmp
+*.log
